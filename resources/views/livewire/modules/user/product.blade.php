@@ -32,22 +32,6 @@
                                     @endforeach
                                 </select>
                             </div>
-                            <div class="form-group mb-2">
-                                <label class="form-label mb-3">Lokasi</label>
-                                <select class="form-select form-select-solid" wire:model="filterType">
-                                    <option value="">Pilih salah satu</option>
-                                    @foreach ([1,2] as $type)
-                                        @if (!empty($valueType))
-                                            @php $selected = $type == $valueType ? 'selected' : '' @endphp
-                                            @php $name = $type == 1 ? 'Single' : 'Bundling' @endphp
-                                            <option value="{{ $type }}" {{ $selected }}>{{ $name }}</option>
-                                        @else
-                                            @php $name = $type == 1 ? 'Single' : 'Bundling' @endphp
-                                            <option value="{{ $type }}">{{ $name }}</option>
-                                        @endif
-                                    @endforeach
-                                </select>
-                            </div>
                             <div class="form-group">
                                 <label class="form-label mb-3">Harga</label>
                                 <div class="row">
@@ -79,25 +63,26 @@
                             <div class="d-md-none d-lg-block">
                                 <div class="card-body row p-0 align-items-center">
                                     <div class="col">
-                                        <div class="card-body d-flex align-items-center">
+                                        <div class="card-body align-items-center">
                                             <div class="">
                                                 <div class="mb-2">
-                                                    <img src="{{ assets_url($site->is_thumbnail) }}" alt="thumbnail"/>
+                                                    <img src="{{ assets_url($site->thumbnail) }}" class="w-100 rounded mb-3" alt="thumbnail"/>
                                                 </div>
-                                                <h4 class="h6 mb-1 fw-bold"><a href="{{ site_url('user', 'product/p') . '/' . $site->id }}">{{ $site->name }}</a></h4>
-                                                <p class="card-text d-flex text-muted mb-0">
-                                                    <span class="badge bg-primary text-white">
-                                                        @if($site->is_type == 1)
-                                                            Pre/Weeding
-                                                        @elseif($site->is_type == 2)
-                                                            Engagement
-                                                        @elseif($site->is_type == 3)
-                                                            Party
-                                                        @else
-                                                            Other
-                                                        @endif
-                                                    </span>
+                                                <h4 class="h6 mb-3 fw-bold"><a href="{{ site_url('user', 'product/p') . '/' . $site->id }}">{{ $site->name }}</a></h4>
+                                                <p class="card-text d-flex align-items-center">
+                                                    <span class="badge bg-primary text-white">{{ $site->is_type == 1 ? 'Single' : 'Bundling' }}</span>
+                                                    <span class="badge mt-2 ms-2 bg-dark text-white">{{ $site->merchant->name }}</span>
                                                 </p>
+                                            </div>
+                                            <div class="d-flex mt-3 ms-auto align-items-center">
+                                                <div class="text-center">
+                                                    <h4 class="h6 fw-bold">Est. Waktu</h4>
+                                                    <p class="card-text text-muted mb-0">{{ $site->is_delivery_time }} hari</p>
+                                                </div>
+                                                <div class="text-center ms-4">
+                                                    <h4 class="h6 fw-bold">Harga</h4>
+                                                    <p class="card-text text-muted mb-0">{{ rupiah_changer($site->is_price) }}</p>
+                                                </div>
                                             </div>
                                             @auth
                                                 @if(user()->level == 4)

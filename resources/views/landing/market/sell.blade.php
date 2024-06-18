@@ -5,7 +5,7 @@
 
     <div class="row justify-content-center text-center pb-4 mb-2">
         <div class="col-xl-6 pt-2">
-          <h2 class="h1 mb-4">Bergabung sebagai Vendor Party Planner &#128196;</h2>
+          <h2 class="h1 mb-4">Bergabung sebagai Vendor {{ app_info('title') }} &#128196;</h2>
           <p class="fs-lg mb-3">Pahami prosedur cara kerja dengan mengikuti langkah-langkah berikut</p>
         </div>
     </div>
