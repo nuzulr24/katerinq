@@ -1,0 +1,38 @@
+[20-Nov-2023 00:01:35 Asia/Jakarta] PHP Fatal error:  Access level to Modules\User\Entities\ReviewModel::$incrementing must be public (as in class Illuminate\Database\Eloquent\Model) in /home/postamuc/app.postamu.com/Modules/User/Entities/ReviewModel.php on line 11
+[28-Nov-2023 14:39:55 UTC] PHP Parse error:  Unclosed '{' on line 146 in /home/postamuc/public_html/app/Helpers/BackendHelper.php on line 529
+[28-Nov-2023 14:39:56 UTC] PHP Parse error:  Unclosed '{' on line 146 in /home/postamuc/public_html/app/Helpers/BackendHelper.php on line 529
+[28-Nov-2023 14:39:58 UTC] PHP Parse error:  Unclosed '{' on line 146 in /home/postamuc/public_html/app/Helpers/BackendHelper.php on line 529
+[28-Nov-2023 14:40:16 UTC] PHP Parse error:  Unclosed '{' on line 146 in /home/postamuc/public_html/app/Helpers/BackendHelper.php on line 529
+[28-Nov-2023 14:40:19 UTC] PHP Parse error:  Unclosed '{' on line 146 in /home/postamuc/public_html/app/Helpers/BackendHelper.php on line 529
+[28-Nov-2023 14:40:19 UTC] PHP Parse error:  Unclosed '{' on line 146 in /home/postamuc/public_html/app/Helpers/BackendHelper.php on line 529
+[11-Feb-2024 19:53:57 Asia/Jakarta] PHP Fatal error:  Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home/postamuc/public_html/storage/framework/views/46ff1f64bc6d02ae3d12e6634f02869f53a60dff.php on line 79
+[12-Feb-2024 21:56:44 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/postamuc/public_html/routes/api.php on line 22
+[12-Feb-2024 21:57:12 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/postamuc/public_html/routes/api.php on line 21
+[12-Feb-2024 21:57:22 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/postamuc/public_html/routes/api.php on line 21
+[12-Feb-2024 21:57:49 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/postamuc/public_html/routes/api.php on line 21
+[18-Feb-2024 15:26:55 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.3.33. in /home/postamuc/public_html/vendor/composer/platform_check.php on line 28
+[20-Apr-2024 08:14:43 UTC] PHP Warning:  require(/home/postamuc/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/postamuc/public_html/public/index.php on line 34
+[20-Apr-2024 08:14:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/postamuc/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/postamuc/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/postamuc/public_html/public/index.php on line 34
+[20-Apr-2024 08:15:04 UTC] PHP Warning:  require(/home/postamuc/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/postamuc/public_html/public/index.php on line 34
+[20-Apr-2024 08:15:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/postamuc/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/postamuc/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/postamuc/public_html/public/index.php on line 34
+[20-Apr-2024 08:15:07 UTC] PHP Warning:  require(/home/postamuc/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/postamuc/public_html/public/index.php on line 34
+[20-Apr-2024 08:15:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/postamuc/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/postamuc/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/postamuc/public_html/public/index.php on line 34
+[20-Apr-2024 08:15:51 UTC] PHP Warning:  require(/home/postamuc/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/postamuc/public_html/public/index.php on line 34
+[20-Apr-2024 08:15:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/postamuc/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/postamuc/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/postamuc/public_html/public/index.php on line 34
+[20-Apr-2024 08:20:04 UTC] PHP Warning:  require(/home/postamuc/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/postamuc/public_html/public/index.php on line 34
+[20-Apr-2024 08:20:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/postamuc/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/postamuc/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/postamuc/public_html/public/index.php on line 34

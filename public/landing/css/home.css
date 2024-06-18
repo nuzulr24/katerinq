@@ -1,0 +1,50 @@
+.content-wrapper{
+    background-color: #F3F0D7;
+    padding-top: 0px !important;
+    padding-bottom: 48px;
+    font-family: 'guestpost-title', Arial;
+}
+
+/* Category */
+.img-container{
+    position: relative;
+    text-align: center;
+}
+.text-over-image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 14px;
+    font-family: 'guestpost-title', Arial;
+}
+.category-image{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+/* Category */
+
+@media only screen and (min-width: 576px) {
+    .banner{
+      height: 620px;
+      object-fit: cover;
+    }
+  
+    .text-over-image{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: black;
+      font-size: 26px;
+      font-family: 'guestpost-title', Arial;
+    }
+
+    .category-image{
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+    }
+  }

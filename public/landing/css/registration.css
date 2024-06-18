@@ -1,0 +1,14 @@
+html,
+body {
+  background-color:#F3F0D7 !important; 
+  font-family:'guestpost-title'; 
+}
+
+#registration-card{
+  background-color:#CEE5D0;
+}
+
+#registration-button{
+  background-color:#FFBF86; 
+  border-color:#FFBF86;
+}

@@ -1,0 +1,9 @@
+.faq-header{
+    background-color: #FFBF86
+}
+
+@media only screen and (min-width: 576px) {
+    .faq-card{
+      width:600px;
+    }
+}

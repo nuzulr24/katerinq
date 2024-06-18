@@ -1,0 +1,7 @@
+{
+    "Blog": true,
+    "User": true,
+    "Auth": true,
+    "Seller": true,
+    "Buzzer": true
+}
